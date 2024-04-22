@@ -1,7 +1,8 @@
 <template>
     <div class="container-fluid">
-        <PageHeader></PageHeader>
-
+        <div class="container">
+            <PageHeader></PageHeader>
+        </div>
     </div>
 </template>
 
@@ -16,4 +17,7 @@ export default {
 </script>
 <style lang="scss">
 @import "bootstrap/scss/bootstrap";
+.container-fluid {
+    background-color: #f5f6f9;
+}
 </style>
