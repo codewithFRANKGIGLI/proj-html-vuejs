@@ -5,6 +5,7 @@
         </div>
         <PageHero></PageHero>
         <OurHistory></OurHistory>
+        <PageServices></PageServices>
     </div>
 </template>
 
@@ -13,11 +14,13 @@
 import PageHeader from "./components/PageHeader.vue";
 import PageHero from "./components/PageHero.vue";
 import OurHistory from "./components/OurHistory.vue";
+import PageServices from "./components/PageServices.vue";
 export default {
     components: {
         PageHeader,
         PageHero,
-        OurHistory
+        OurHistory,
+        PageServices
     }
 }
 </script>
