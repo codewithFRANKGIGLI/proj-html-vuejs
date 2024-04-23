@@ -1,6 +1,23 @@
 <template>
     <section class="position-relative">
-        
+        <nav id="navbarFix" class="navbar navbar-light position-absolute z-2">
+            <div class="container p-5">
+                <a class="navbar-brand">
+                    <img src="../assets/img/logo.png" alt="">
+                </a>
+                <div class="justify-content-between d-flex text-white fw-bold gap-4">
+                    <p><a href="#" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">ABOUT</a></p>
+                    <p><a href="#" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">SERVICES</a></p>
+                    <p><a href="#" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">YACHTS</a></p>
+                    <p><a href="#" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">RESERVATIONS</a></p>
+                    <p><a href="#" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">BLOG</a></p>
+                    <p><a href="#" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">CONTACTS</a></p>
+                </div>
+                <form class="d-flex input-group w-auto">
+                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                </form>
+            </div>
+        </nav>
         <div id="imgTextContainer" class="text-white position-absolute z-2">
             <h1 id="imgTitle" class="">QuickWind</h1>
             <p class="fs-3 w-75">all kinds of boats, yacht charters and sailing destinations for hobbyist yachtsmen and women!</p>
@@ -42,6 +59,10 @@
 </script>
 
 <style lang="scss" scoped>
+@use "../assets/scss/partials/variables.scss" as *;
+    i {
+        color: $second-color;
+    }
     #imgTitle {
         font-size: 12rem;
     }
@@ -49,4 +70,10 @@
         top: 35%;
         left: 20%;
     }
+    #navbarFix {
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    
 </style>
