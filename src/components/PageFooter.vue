@@ -88,10 +88,15 @@ export default {
 .bottom-footer {
     background-color: $third-color;
 }
-
-a,
 span {
     color: white;
+}
+a {
+    color: white;
+    cursor: pointer;
+    &:hover {
+        color: $second-color;
+    }
 }
 i {
     border-radius: 75%;
