@@ -13,8 +13,8 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
 
-                        <div class="card bg-white bg-opacity-25 m-auto text-white">
-                            <div class="row">
+                        <div class="card bg-white bg-opacity-25 m-auto text-white w-75">
+                            <div class="row m-5">
                                 <div class="col-md-4 d-flex justify-content-end">
                                     <img src="../assets/img/test1.jpg" class="rounded-circle p-3" alt="...">
                                 </div>
@@ -36,7 +36,7 @@
                     <div class="carousel-item">
 
                         <div class="card bg-white bg-opacity-25 m-auto text-white">
-                            <div class="row">
+                            <div class="row m-5">
                                 <div class="col-md-4 d-flex justify-content-end">
                                     <img src="../assets/img/test2.jpg" class="rounded-circle p-3" alt="...">
                                 </div>
@@ -58,7 +58,7 @@
                     <div class="carousel-item">
 
                         <div class="card bg-white bg-opacity-25 m-auto text-white">
-                            <div class="row">
+                            <div class="row m-5">
                                 <div class="col-md-4 d-flex justify-content-end">
                                     <img src="../assets/img/test3.jpg" class="rounded-circle p-3" alt="...">
                                 </div>
@@ -104,5 +104,14 @@ i {
     font-size: 5rem;
     top: -1rem;
     left: 0;
+}
+#carouselExampleIndicators {
+    // height: 500px;
+    // width: 75%;
+    margin: auto;
+    margin-top: 5rem;
+}
+.carousel-inner {
+    // height: 300px;
 }
 </style>
