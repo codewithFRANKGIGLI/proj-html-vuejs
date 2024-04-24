@@ -17,21 +17,31 @@
 </template>
 
 <script>
-    export default {
+export default {
 
-    }
+}
 </script>
 
 <style lang="scss" scoped>
 @use "../assets/scss/partials/variables.scss" as *;
+
 .fa-solid {
     color: $second-color;
     margin: 0 1rem;
     font-size: 1.5rem;
 }
+
 .fa-brands {
     color: $third-color;
     margin: 0 1rem;
     font-size: 1.5rem;
+}
+
+i {
+    cursor: pointer;
+
+    &:hover {
+        color: $second-color;
+    }
 }
 </style>

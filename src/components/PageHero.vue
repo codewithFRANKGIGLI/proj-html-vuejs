@@ -14,7 +14,7 @@
                     <p><a href="#" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">CONTACTS</a></p>
                 </div>
                 <form class="d-flex input-group w-auto">
-                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                <span><i class="fa-solid fa-magnifying-glass fs-3"></i></span>
                 </form>
             </div>
         </nav>

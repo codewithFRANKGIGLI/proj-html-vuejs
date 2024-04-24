@@ -12,26 +12,26 @@
                     <div class="col">
                         <ul class="list-unstyled">
                             <li class="mb-2">
-                                <h5 class="text-uppercase mb-4 fw-bold">yachts</h5>
+                                <a class="text-uppercase mb-4 fw-bold text-dark">yachts</a>
                             </li>
                             <li class="mb-2">
-                                <h5 class="text-uppercase mb-4 fw-bold">services</h5>
+                                <a class="text-uppercase mb-4 fw-bold text-dark">services</a>
                             </li>
                             <li class="mb-2">
-                                <h5 class="text-uppercase mb-4 fw-bold">reservations</h5>
+                                <a class="text-uppercase mb-4 fw-bold text-dark">reservations</a>
                             </li>
                         </ul>
                     </div>
                     <div class="col">
                         <ul class="list-unstyled">
                             <li class="mb-2">
-                                <h5 class="text-uppercase mb-4 fw-bold">blog</h5>
+                                <a class="text-uppercase mb-4 fw-bold text-dark">blog</a>
                             </li>
                             <li class="mb-2">
-                                <h5 class="text-uppercase mb-4 fw-bold">Privacy policy</h5>
+                                <a class="text-uppercase mb-4 fw-bold text-dark">Privacy policy</a>
                             </li>
                             <li class="mb-2">
-                                <h5 class="text-uppercase mb-4 fw-bold">terms of use</h5>
+                                <a class="text-uppercase mb-4 fw-bold text-dark">terms of use</a>
                             </li>
                         </ul>
                     </div>
@@ -85,21 +85,34 @@ export default {
     color: white;
 }
 
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .bottom-footer {
     background-color: $third-color;
 }
+
 span {
     color: white;
 }
-a {
+
+.nav-link {
     color: white;
-    cursor: pointer;
+
     &:hover {
         color: $second-color;
     }
 }
+
 i {
     border-radius: 75%;
     font-size: 1.5rem;
+    cursor: pointer;
+
+    &:hover {
+        color: $second-color;
+    }
 }
 </style>
