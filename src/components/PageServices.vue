@@ -1,7 +1,7 @@
 <template>
     <section class="position-relative">
         <div id="imgTextContainer" class="position-absolute top-50 start-50 translate-middle text-center text-white z-2">
-            <h1 id="imgTitle" class="fw-bold pb-5">Yacht Charters, Repairs & Transportation, US-wide!</h1>
+            <h1 id="imgTitle" class="fw-bold pb-5 w-75">Yacht Charters, Repairs & Transportation, US-wide!</h1>
             <button id="learnBtn" type="button" class="btn mt-3 px-4 py-3 fw-bold fs-5">More Details</button>
         </div>
         <img src="../assets/img/bg5.jpg" class="w-100" alt="">

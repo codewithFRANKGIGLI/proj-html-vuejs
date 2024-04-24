@@ -6,6 +6,8 @@
         <PageHero></PageHero>
         <OurHistory></OurHistory>
         <PageServices></PageServices>
+        <OurYachts></OurYachts>
+        <PageEvent></PageEvent>
     </div>
 </template>
 
@@ -15,12 +17,16 @@ import PageHeader from "./components/PageHeader.vue";
 import PageHero from "./components/PageHero.vue";
 import OurHistory from "./components/OurHistory.vue";
 import PageServices from "./components/PageServices.vue";
+import OurYachts from "./components/OurYachts.vue";
+import PageEvent from "./components/PageEvent.vue";
 export default {
     components: {
         PageHeader,
         PageHero,
         OurHistory,
-        PageServices
+        PageServices,
+        OurYachts,
+        PageEvent
     }
 }
 </script>

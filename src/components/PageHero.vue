@@ -21,7 +21,7 @@
         <div id="imgTextContainer" class="text-white position-absolute z-2">
             <h1 id="imgTitle" class="">QuickWind</h1>
             <p class="fs-3 w-75">all kinds of boats, yacht charters and sailing destinations for hobbyist yachtsmen and women!</p>
-            <button type="button" class="btn btn-outline-light">Learn More</button>
+            <button type="button" class="btn btn-outline-light px-4 py-2">Learn More</button>
         </div>
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
