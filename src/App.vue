@@ -8,6 +8,7 @@
         <PageServices></PageServices>
         <OurYachts></OurYachts>
         <PageEvent></PageEvent>
+        <PageBlog></PageBlog>
     </div>
 </template>
 
@@ -19,6 +20,7 @@ import OurHistory from "./components/OurHistory.vue";
 import PageServices from "./components/PageServices.vue";
 import OurYachts from "./components/OurYachts.vue";
 import PageEvent from "./components/PageEvent.vue";
+import PageBlog from "./components/PageBlog.vue";
 export default {
     components: {
         PageHeader,
@@ -26,7 +28,8 @@ export default {
         OurHistory,
         PageServices,
         OurYachts,
-        PageEvent
+        PageEvent,
+        PageBlog
     }
 }
 </script>
