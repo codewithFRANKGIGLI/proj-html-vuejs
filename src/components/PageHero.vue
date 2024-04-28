@@ -6,12 +6,14 @@
                     <img src="../assets/img/logo.png" alt="">
                 </a>
                 <div class="justify-content-between d-flex text-white fw-bold gap-4">
-                    <p><a href="#" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">ABOUT</a></p>
-                    <p><a href="#" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">SERVICES</a></p>
+                    <p v-for="link in links">
+                        <a href="#" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">{{ link.name }}</a>
+                    </p>
+                    <!-- <p><a href="#" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">SERVICES</a></p>
                     <p><a href="#" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">YACHTS</a></p>
                     <p><a href="#" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">RESERVATIONS</a></p>
                     <p><a href="#" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">BLOG</a></p>
-                    <p><a href="#" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">CONTACTS</a></p>
+                    <p><a href="#" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">CONTACTS</a></p> -->
                 </div>
                 <form class="d-flex input-group w-auto">
                 <span><i class="fa-solid fa-magnifying-glass fs-3"></i></span>
@@ -54,7 +56,7 @@
 
 <script>
     export default {
-        
+        props: ['links']
     }
 </script>
 

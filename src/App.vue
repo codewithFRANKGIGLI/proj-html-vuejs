@@ -3,7 +3,7 @@
         <div class="container">
             <PageHeader></PageHeader>
         </div>
-        <PageHero></PageHero>
+        <PageHero :links="links"></PageHero>
         <OurHistory></OurHistory>
         <PageServices></PageServices>
         <OurYachts></OurYachts>
@@ -36,6 +36,36 @@ export default {
         PageBlog,
         PageTestimonials,
         PageFooter
+    },
+    data() {
+        return {
+            links: [
+                {
+                    name: 'ABOUT',
+                    link: '###'
+                },
+                {
+                    name: 'SERVICES',
+                    link: '###'
+                },
+                {
+                    name: 'YACHTS',
+                    link: '###'
+                },
+                {
+                    name: 'RESERVATIONS',
+                    link: '###'
+                },
+                {
+                    name: 'BLOG',
+                    link: '###'
+                },
+                {
+                    name: 'CONTACTS',
+                    link: '###'
+                },
+            ]
+        }
     }
 }
 </script>
